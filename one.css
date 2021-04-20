@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(64, 89, 91);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: rgb(210, 210, 210);
+    font-size: 500%;
+    outline-color: gray;
+}
+h2 {
+    color: whitesmoke;
+}
+img {
+    border-radius: 5%;
+}
+footer {
+    color: white;
+}
