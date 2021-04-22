@@ -20,7 +20,7 @@ if (person != null) {
 
 let username = prompt("How do you spell your name?");
 
-alert(username + ", Create don't hate");
+alert(username + ", Create don't hate.");
 
 let birthYear = prompt("What year was " + username + " born?");
 
