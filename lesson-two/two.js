@@ -81,7 +81,8 @@ function houseVolume(width, depth, height, sweep) {
     return livingVolume(width, depth, height) + roofVolume(width, depth, height, sweep);
 }
 */
-var motto = prompt("What is your favorite motto or phrase?");
+var getMotto = "motto";
+getMotto();
 
 function getMotto(motto) {
     return prompt("What is your favorite motto or phrase?");
