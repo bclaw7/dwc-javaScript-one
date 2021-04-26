@@ -83,8 +83,14 @@ function houseVolume(width, depth, height, sweep) {
 */
 
 
+let motto = prompt("What is your favorite motto or phrase?");
+
+let i = prompt("How many times would you like to display: " + motto);
+
 function getMotto() {
-    return prompt("What is your favorite motto or phrase?");
+    for (console.log(motto * i));
 }
-getMotto();
+
+
+
 
