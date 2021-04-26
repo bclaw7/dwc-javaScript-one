@@ -88,8 +88,9 @@ let motto = prompt("What is your favorite motto or phrase?");
 let i = prompt("How many times would you like to display: " + motto);
 
 function getMotto() {
-    for (console.log(motto * i));
+    console.log(motto * i);
 }
+
 
 
 
