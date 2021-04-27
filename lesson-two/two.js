@@ -84,25 +84,88 @@ function houseVolume(width, depth, height, sweep) {
 
 function getMotto() {
     let motto = prompt("Enter a phrase or motto.");
-    return(alert(motto));
-} 
+    return motto;
+}
 getMotto();
 
-function getCount() {
-    let count = prompt("How many times would you like " + motto + " displayed?");
+function getCount(userMotto) {
+    let Usercount = prompt("How many times would you like " + userMotto + " displayed?");
     return parseFloat(count * motto);
 }
 getCount();
 
+let userMotto = getMotto();
+let count = getCount(userMotto);
+
+
+
 function printMotto(motto, count) {
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
+    /*for (let i=1; i<= count; i++); {
+        console.log(i + ". " + motto);
+    }*/
+    let i=1;
+    let message = 
+    while (i <= count) {
+        document.getElementById("output")(i + ". " + motto)
     }
 }
-printMotto();
+printMotto(userMotto);
+playAgain();
 
 
+function playAgain() {
+    let playAgainString = prompt("Would you like to play again?");
+    if(playAgainString === "y");
+    else {
+        alert("Thanks for playing!");
+    }
+}
+/*
+function playGame() {
+    let userMotto = 
+}
+*/
+/*
+function getMotto() {
+    let userPhrase = prompt("Please enter your favorite phrase or motto:");
+    return userPhrase;
+}
 
+function getCount(userMotto) {
+    let userCount = prompt("Please enter the number of times you'd like to see " + userMotto +  " your motto:");
+    return parseFloat(userCount);
+}
 
+function playAgain() {
+    let playAgainString = prompt("Would you like to play again (y/n)?");
 
+    if(playAgainString === "y") {
+        playGame();
+    } else {
+        alert("Thanks for playing!");
+    }
+}
+
+function printMotto(motto, count) {
+    // for (let i = 1; i <= count; i++) {
+    //     console.log(i + ". " + motto);
+    // }
+
+    let i = 1;
+    while (i <= count) {
+        console.log(i + ". " + motto);
+        i++;
+    }
+
+}
+
+function playGame() {
+    let userMotto = getMotto();
+    let count = getCount(userMotto);
+    
+    printMotto(userMotto, count);
+    playAgain();
+}
+
+playGame();
+*/
