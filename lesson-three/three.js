@@ -43,7 +43,7 @@ function displayTime() {
     document.getElementById("output").innerHTML = hours; minutes;
 }
 */
-
+/*
 function addToList() {
     let product = productForm.productName.value
     let price = productForm.productPrice.value
@@ -68,4 +68,9 @@ function addToList() {
     document.getElementById("userList").appendChild(li);
 
     productForm.productName.value = "";
+}
+*/
+
+function addToPage() {
+    
 }
