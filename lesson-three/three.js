@@ -74,5 +74,7 @@ function addToList() {
 function addToPage() {
     let image = imageForm.imageUrl.value;
     let img = document.createElement("img");
-    img.setAttribute(src + image).appendChild(document);
+    img.setAttribute("src", "image").appendChild(img);
+    document.getElementById("images").appendChild(image);
 }
+
