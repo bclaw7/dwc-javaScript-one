@@ -1,0 +1,13 @@
+.card {
+    width: 450px;
+    background-color: cadetblue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}

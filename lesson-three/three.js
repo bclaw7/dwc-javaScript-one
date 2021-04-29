@@ -72,9 +72,10 @@ function addToList() {
 */
 
 function addToPage() {
-    let image = imageForm.imageUrl.value;
-    let img = document.createElement("img");
-    img.setAttribute("src", "image").appendChild(img);
+    let imageSrc = imageForm.imageUrl.value;
+    let imgElement = document.createElement("img");
+    imgElement.setAttribute("src", imageSrc).appendChild(img);
     document.getElementById("images").appendChild(image);
+    document.body.appendChild
 }
 

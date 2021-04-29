@@ -1,0 +1,32 @@
+body {
+    background: radial-gradient(rgb(114, 209, 131), rgb(200, 91, 91));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 20%;
+    padding-bottom: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#guessBox {
+    width: 300px;
+    border: 6px solid rgba(14, 131, 226, 0.402);
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10%;
+    background: rgba(17, 17, 198, 0.156);
+    box-shadow: 2px 2px 4px rgba(14, 131, 226, 0.402);
+}
+
+button {
+    border: 3px solid rgb(14, 131, 226, 0.402);
+    border-radius: 10%;
+    background-color: seagreen;
+}
+button:hover {
+    background-color: springgreen;
+}
+h1 {
+    font-size: 150%;
+    text-transform: uppercase;
+}
