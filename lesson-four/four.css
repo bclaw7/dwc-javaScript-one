@@ -15,7 +15,7 @@ body {
     text-align: center;
     border-radius: 10%;
     background: rgba(17, 17, 198, 0.156);
-    box-shadow: 2px 2px 4px rgba(14, 131, 226, 0.402);
+    box-shadow: 0px 0px 6px 6px rgba(14, 131, 226, 0.402);
 }
 
 button {
