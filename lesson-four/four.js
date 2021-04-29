@@ -24,7 +24,8 @@ function numberGuessGame(min, max) {
     let num = randomNumber(min, max).innerHTML = "I'm thinking of a number between " + min + " and " + max
     let guess;
     do {
-        guess < num || guess > num; parseInt(prompt("Guess Again"))
+        guess = parseInt(prompt("Guess Again"))
+        if(guess < num || guess > num);
     } while(guess = num)parseInt(prompt("Good Guess"))
 }
 
