@@ -25,6 +25,7 @@ button {
 }
 button:hover {
     background-color: springgreen;
+    text-transform: uppercase;
 }
 h1 {
     font-size: 150%;

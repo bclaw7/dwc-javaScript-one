@@ -2,22 +2,22 @@ function submitData() {
     let lowNumber = parseInt(GuessGame.lowNumber.value);
     let highNumber = parseInt(GuessGame.highNumber.value);
     if (lowNumber >= highNumber) {
-        document.getElementById("lowNumber").innerHTML = "Enter a lower number"
+        updateDom("Enter a lower number.", "red")
     }
     else (lowNumber < highNumber); {
-        numberGuessGame();
+        numberGuessGame(lowNumber, highNumber);
     }
     if (highNumber <= lowNumber) {
-        document.getElementById("highNumber").innerHTML = "Enter a higher number"
+        updateDom("Enter a higher number", "red")
     }
     else (highNumber > lowNumber); {
-        numberGuessGame();
+        numberGuessGame(lowNumber, highNumber);
     }
 }
 
 
 function updateDom(value, color) {
-    updateDom("Congratulations", "green")
+    document.getElementById("output", "green").innerHTML = value;
 }
 
 function numberGuessGame(min, max) {
@@ -25,7 +25,7 @@ function numberGuessGame(min, max) {
     let guess;
     do {
         guess < num || guess > num; parseInt(prompt("Guess Again"))
-    } while(guess = num)prompt(updateDom)
+    } while(guess = num)parseInt(prompt("Good Guess"))
 }
 
 function randomNumber(min, max) { 
