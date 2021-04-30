@@ -1,0 +1,30 @@
+body {
+    background: radial-gradient(magenta, springgreen) no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    margin-top: 225px;
+}
+
+main {
+    position: relative;
+    background: rgba(175, 238, 238, 0.3);
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+}
+
+div.container {
+    background: rgba(0, 0, 0, 0.355);
+    color: rgba(255, 255, 240, 0.526);
+    width: 0 auto;
+    padding: 20px;
+    border-radius: 20%;
+    resize: both;
+    text-align: center;
+}
