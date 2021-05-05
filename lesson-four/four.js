@@ -34,7 +34,7 @@ function numberGuessGame(min, max) {
         }
         guessCount++;
     } while(guess != num);
-    message = "Yay!!  " + guess + "  is correct.  It took you you " + guessCount + " guess(es).";
+    message = "Yay!!  " + guess + "  is correct.  It took you " + guessCount + " guess(es).";
     updateDom(message, "green");
 }
 
