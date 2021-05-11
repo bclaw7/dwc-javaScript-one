@@ -1,0 +1,14 @@
+#userTable {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#userTable tr td {
+    border: 1px solid black;
+}
+
+#userTable tr th {
+    border: 1px solid black;
+}

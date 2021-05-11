@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkNumberSize(num) {
+            if (num > 1000) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        let a = 20;
+        let b = 30;
+        let c = a * b;
+        let d = c / 2;
+
+        if (d > 1000) {
+            console.log("This is a really big number!");
+        }  else {
+            console.log(d + " is not a really big number");
+        }
+
+        while (d < 1000) {
+            d++;
+        }
+
+        let numberIsBigBool = checkNumberSize(d);
+        console.log("d is a big number: " + numberIsBigBool);
+        
+        try {
+            consolllle.log(numberIsBigBool)
+        } catch(err) {
+            console.log(err.message);
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

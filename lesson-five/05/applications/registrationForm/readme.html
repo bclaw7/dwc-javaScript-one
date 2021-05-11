@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../site/fav.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../site/style.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../site/global.js"></script>
+    <script>
+        hljs.highlightAll();
+        $(function () {
+            $("#includedHeader").load("../site/header.html");
+        });
+        window.onload = function () { // load global variables
+            document.title = g.n02 + " Assignment";
+        };
+    </script>
+</head>
+
+<body>
+    <div id="includedHeader"></div>
+    <article>
+        <h1>Lesson Assignment</h1>
+        <h2>Overview</h2>
+        <p>The assignment for this lesson is intended to strengthen your ability to work with the DOM, events and forms. Your tasks are as follows:</p>
+        <ol>
+            <li><p>Create a registration form. It should contain the following input fields: username, password, confirm password. It should also contain a button to submit the form.</p></li>
+            <li><p>When the user submits the form, call a function in your JavaScript file.</p></li>
+            <li><p>This function should ensure that all fields are present. If any are missing, show a red error message under the respective input that says "Required".</p></li>
+            <li><p>This function should ensure that the passwords match. If they do not, show a red error message that says, "Passwords must match".</p></li>
+            <li><p>If everything looks good, go ahead and display a green message below the submit button that says, "User successfully saved."</p></li>
+        </ol>
+        <h3>Stretch Challenges</h3>
+        <ul>
+            <li><p>Disable the register button if any of the fields are blank.</p></li>
+            <li><p>Display user information in a list that will allow you to show multiple users that have been added.</p></li>
+            <li><p>Display the time of day that they were added as well.</p></li>
+        </ul>
+        <h3>Save/push changes to Github</h3>
+        <p>Now that you have finished your program, it is time to save it in Github. We do this so that potential employers can see your work. It is good to be in the habit of saving your code in Github even in the very beginning. Anytime you write a program or work on a project, you will want to do what we are about to do now.</p>
+        <ul>
+            <li><p>Open the terminal in VS code by right clicking the <code>JavaScript1</code> folder and selecting "Open in Integrated Terminal".</p></li>
+            <li><p>execute the following commands:</p></li>
+            <li><p><code>git status</code> - This will show what changes have been made in your repository.</p></li>
+            <li><p><code>git add .</code> - This will prepare all of your changes for a commit (which will be saved in version control if you ever need to view or return to the state that your code is currently in).</p></li>
+            <li><p><code>git commit -m "Lesson 3 assignment"</code> - This will save the changes that you just added with the name that you put for the message, in this case: "Lesson 3 Assignment".</p></li>
+            <li><p><code>git push</code> - This will save your code in Github. Now you could go to the github.com website and view your code their as well along with your commit.</p></li>
+            <li><p>Navigate to <a href="github.com" target="_blank">github.com</a> and verify that your repository shows your latest code.</p></li>
+        </ul>
+        <h3>Submit Assignment</h3>
+        <ul>
+            <li><p>Fill out <a href="https://forms.gle/riSgkSnhwLwbJfBP9" target="_blank">This Form</a> to submit your assignment. You will need your github repository url (ie: https://github.com/yourUserName/JavaScript1) to complete this form.</p></li>
+        </ul>
+
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.contain {
+    display: flex;
+  }
+.contain div {
+flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    text-align: left;
+}
+form input, select {
+    width:100%;
+}
+
+.error {
+    text-align: center !important;
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+#soundAlarmHack {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+#alarmSounding {
+    width:100%;
+    font-size:500%;
+    font-weight:bolder;
+    color:crimson;
+}

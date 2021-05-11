@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Calculator</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="investment.css">
+    <script src="../main.js"></script>
+    <script src="investment.js"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Investment Calculator</h1>
+        <form name="investmentForm" onsubmit="submitData(); return false">
+            <table>
+                <tr>
+                    <td>Investment Amount: </td>
+                    <td><input type="text" name="balance"></td>
+                </tr>
+                <tr>
+                    <td>Annual Interest Rate: </td>
+                    <td><input type="text" name="rate"></td>
+                </tr>
+                <tr>
+                    <td>Duration of Investment (in months): </td>
+                    <td><input type="text" name="months"></td>
+                </tr>
+            </table>
+            <button>Calculate Final Value</button>
+        </form>
+        <div id="output"></div>
+    </div>
+</body>
+</html>

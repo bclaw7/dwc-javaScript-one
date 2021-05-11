@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="../site.js"></script>
+    <script src="home.js"></script>
+    
+</head>
+<body>
+    <div class="card"> 
+        <h1 class="center">Number Guessing Game</h1>
+        <p>Please enter a low number and a high number for our guessing game range (for example: 1-100)</p>
+        <form name="guessForm" onsubmit="submitData(); return false">
+            <table> 
+                <tr>
+                    <td>Bottom of Range</td>
+                    <td><input type="text" name="bottom"></td>
+                </tr>
+                <tr>
+                    <td>Top of Range</td>
+                    <td><input type="text" name="top"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Play Game!</button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <div id="output"></div>
+    </div>
+</body>
+</html>

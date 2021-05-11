@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Quiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="quiz.css">
+        <script src="quiz.js"></script>
+    </head>
+    <body class="container">
+        <h1>Who Wants to be a Millionaire Quiz</h1>
+        <div class="quizDiv">
+            <p class="question">Compiled by Benjamin Franklin in 1737, "The Drinker's Dictionary" included all but which of these synonyms for "drunkenness"??</p>
+            <ul>
+                <input class="answer" type="radio" name="q1" value="1">
+                <label>Nimptopsical</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>Buzzey</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label id="correctString1">Pifflicated</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>Staggerish</label>
+            </ul>
+            <p class="question">A rare example of a word that rhymes with "orange," the Blorenge is a what?</p>
+            <ul>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label>River in Ireland</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="1">
+                <label>Forest in Scotland</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label id="correctString2">Mountain in Wales</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label>Desert in Australia</label>
+            </ul>
+            <p class="question">"Nephelococcygia" is the practice of doing what?</p>
+            <ul>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label id="correctString3">Finding shapes in clouds</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="1">
+                <label>Sneezing with your eyes open</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>Breaking glass with your voice</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>Swimming in freezing water</label>
+            </ul>
+            <p class="question">Who delivered the less famous two-hour speech that preceded Abraham Lincoln's two-minute Gettysburg Address?</p>
+            <ul>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>Wendell Phillips</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="1">
+                <label>Daniel Webster</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>Robert G. Ingersoll</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label id="correctString4">Edward Everett</label>
+            </ul>
+            <p class="question">What club did astronaut Alan Shepard use to make his famous golf shot on the moon?</p>
+            <ul>
+                <input class="answer" type="radio" name="q5" value="0">
+                <label>9-iron</label>
+                <br>
+                <input class="answer" type="radio" name="q5" value="1">
+                <label>Sand wedge</label>
+                <br>
+                <input class="answer" type="radio" name="q5" value="0">
+                <label id="correctString5">6-iron</label>
+                <br>
+                <input class="answer" type="radio" name="q5" value="0">
+                <label>7-iron</label>
+            </ul>
+            <br />
+            
+        </div>
+        <input class="btn btn-danger" id="submitButton" onClick="submitQuiz()" value="Submit" />
+            <div id="quizAnswerContainer"></div>
+            <h2 class="quizScore" id="userScore"></h2>
+    </body>
+</html>

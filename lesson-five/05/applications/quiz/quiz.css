@@ -1,0 +1,42 @@
+p.question {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #2E2E2E;
+    margin-bottom: 0px;
+}
+
+h2.quizScore {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+div.quizAnswers {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #424242;
+    padding: 4px 0 4px 0;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #424242;
+    vertical-align: top;
+}
+
+input.answer[type="radio"] {
+    margin-bottom: 10px;
+}
+
+.submitter {
+    width: 85px;
+}
+
+.hide {
+    display: none;
+}
+
+.quizDiv {
+    height: 500px;
+    overflow-y: scroll;
+}

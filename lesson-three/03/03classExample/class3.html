@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 3 activity 3</title>
+    <link rel="stylesheet" href="class3.css">
+</head>
+<body>
+    <form onsubmit="addToList(); return false" name="productForm">
+        <table>
+            <tr>
+                <td>Please enter a product name: </td>
+                <td><input type="text" name="productName"></td>
+            </tr>
+            <tr>
+                <td>Please enter a price: </td>
+                <td><input type="text" name="productPrice"></td>
+            </tr>
+        </table>
+        <button type="submit">Add new item to list</button>
+    </form>
+
+    <table id="userTable">
+        <tr>
+            <th>Product Name</th>
+            <th>Product Price</th>
+        </tr>
+    </table>
+    <script src="class3.js"></script>
+</body>
+</html>

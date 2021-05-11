@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="../site.js"></script>
+    <script src="home.js"></script>
+</head>
+<body>
+    <h1>Current time: <span id="time"></span></h1>
+    <div id="alarmSounding"></div>
+    <div class="contain">
+        <div>
+            <h2>Current alarms:</h2>
+            <ul id="setAlarms">
+            </ul>
+        </div>
+        <div>
+            <h2>Create new alarm</h2>
+            <form name="alarmForm" onsubmit="return false">
+                Alarm title: <input type="text" name="alarmTitle">
+                <br>
+                Set alarm time 
+                <select id="timeDropdown" name="alarmTime">
+                </select>
+                <br><br>
+                <input type="submit" value="Submit" id="submitForm" OnClick="createAlarm()">
+            </form>
+        </div>
+    </div>
+    <!-- Code for audio or perhaps a way to toggle the alarm sounding-->
+</body>
+</html>

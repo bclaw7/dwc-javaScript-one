@@ -1,0 +1,22 @@
+.card {
+    width: 450px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    background-image: url("https://www.investopedia.com/thmb/F1E7lBGBZjqgLKY8WCw6pz9zfzA=/2121x1414/filters:fill(auto,1)/Investingjourneypic-a9bb92f557694caaaa92b761eb2cadd9.jpg");
+}

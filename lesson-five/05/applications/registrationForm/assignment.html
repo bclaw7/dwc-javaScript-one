@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 Assignment</title>
+    <script src="assignment.js"></script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form name="registrationForm" onsubmit="saveUser(); return false">
+        Username: <input type="text" name="username" id="username"><br>
+        <p id="usernameError"></p>
+        Password: <input type="password" name="password" id="password"><br>
+        <p id="passwordError"></p>
+        Confirm Password: <input type="password" name="confirmPassword" id="confirmPassword"><br>
+        <p id="confirmPasswordError"></p>
+        <button type="submit" id="submit">Save User</button>
+        <p id="successMessage"></p>
+    </form>
+</body>
+</html>
